@@ -1,6 +1,6 @@
 !!!!!!! READ FIRST !!!!!!!!
 
-Very simple ComfyUI script that CLEARS input folder (should clear additional paths set as input folders too) every time the server starts (it will leave files that you specify inside the code). Put main.py (can rename to whatever) or folder inside ComfyUI/custom_nodes folder. Why use it? Because comfy will create a copy of every file that you load or copy-paste even if it's already inside input folder.
+Very simple ComfyUI script that CLEARS input folder (should clear additional paths set as input folders too) every time the server starts (it will leave files that you specify inside the code). Put __input__.py (don't rename this file) or folder inside ComfyUI/custom_nodes folder. Why use it? Because comfy will create a copy of every file that you load or copy-paste even if it's already inside input folder.
 
 Set filenames here:
 
