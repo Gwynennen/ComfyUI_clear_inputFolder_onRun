@@ -6,7 +6,7 @@ import folder_paths
 def cleanup_input():
     # --------------------------------
 
-    EXCLUDE_ITEMS = ["dir1", "file1"]
+    EXCLUDE_ITEMS = ["yarimokuBlue"]
     
     #---------------------------------
     input_dir = folder_paths.get_input_directory()
